@@ -1,23 +1,23 @@
 # LinkedIn Post Draft
 
-**Headline:** Building Better Habits with Flutter & Zyro 🚀
+**Headline:** Just built my own Habit Tracker using Flutter! 🚀
 
-I'm excited to share **Zyro**, a minimal and powerful habit tracker I've built using Flutter! 
+I’ve been working on this for a while because I wanted a habit tracker that just *works*—no ads, no paywalls, and no complicated clutter. Just something clean to help me stay consistent.
 
-The goal was simple: create an app that helps you build positive routines without the clutter. Zyro combines a premium "glassmorphism" aesthetic with a robust offline-first architecture to keep your data private and your experience smooth.
+So I built **Zyro**.
 
-**Key Features:**
-✅ **Smart Tracking:** Manage both daily recurring habits and one-off tasks.
-📊 **Deep Analytics:** Visualize your progress with interactive charts and streak calendars.
-🔔 **Reliable Alarms:** Built with exact-alarm scheduling and full-screen intent for a true wake-up experience.
-🎨 **Dynamic Themes:** Beautiful dark and light modes that adapt to your preference.
+It’s completely offline and privacy-focused (your data stays on your device), but I made sure to pack it with the features that actually matter:
+✅ **Smart Alarms & Notifications**: Triggers exact-time alarms and notifications so I never miss a habit.
+✅ **Customizable Icons**: I added support for different icons so every task and habit looks distinct.
+✅ **Streak Calendar**: Keeps me motivated by seeing those active days stack up.
+✅ **Clean UI**: Went for a minimal "Glassmorphism" look that supports both dark and light modes.
+✅ **Detailed Stats**: Weekly and monthly charts to track progress.
 
-**Tech Stack:**
-built with #Flutter and #Dart, powered by #Hive for local storage, #Provider for state management, and #FLChart for analytics.
+Under the hood, it’s built with **Flutter** & **Dart** and uses **Hive** for a super fast local database. I built this utilizing **Antigravity**, checking off tasks and refining the code to get it just right.
 
-Check out the project and download the APK here:
-🔗 **Repository**: https://github.com/pavanbharath15/zyro.apk.git
+I’ve open-sourced the whole thing. If you want to check out the code or try the APK, here’s the link:
+🔗 **GitHub**: https://github.com/pavanbharath15/zyro.apk
 
-I'd love to hear your feedback! 
+Let me know what you think! Appreciate any feedback. 👇
 
-#FlutterDev #MobileAppDevelopment #OpenSource #HabitTracker #Productivity #AppDesign #Zyro
+#Flutter #AppDevelopment #OpenSource #Coding #HabitTracker #Zyro #Antigravity

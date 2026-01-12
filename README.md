@@ -1,6 +1,8 @@
 # Zyro - Build Better Habits
 
 <div align="center">
+  <img src="assets/screenshots/logo.jpg" width="100" alt="Zyro Logo" />
+  <br/>
   <img src="assets/screenshots/dashboard.jpg" width="300" alt="Zyro Dashboard" />
 </div>
 
