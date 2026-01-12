@@ -59,20 +59,15 @@ Zyro is engineered for mobile performance using a modern stack:
 ### Permissions (Android)
 To ensure reliable **Alarms**, we use `SCHEDULE_EXACT_ALARM` and `USE_FULL_SCREEN_INTENT`. These are strictly used to make sure you wake up or get reminded exactly when you want, even if your phone is locked.
 
-## 🚀 Getting Started
+## 📥 Download & Install
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/pavanbharath15/zyro.apk.git
-   ```
-2. **Install dependencies**:
-   ```bash
-   flutter pub get
-   ```
-3. **Run the app**:
-   ```bash
-   flutter run
-   ```
+**[Click here to Download Zyro (APK)](https://github.com/pavanbharath15/zyro.apk/raw/main/zyro.apk)**
+
+### How to Install:
+1. **Download**: Click the link above to download the `zyro.apk` file.
+2. **Open**: Tap the downloaded file on your Android device.
+3. **Install**: If prompted, allow "Install from unknown sources" (since this is a custom app and not from the Play Store).
+4. **Enjoy**: Open Zyro and start building better habits!
 
 ## 📄 License
 
