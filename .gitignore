@@ -1,15 +1,13 @@
-# Ignore everything
+# Ignore EVERYTHING by default
 *
+
+# Allow Directories (so we can traverse to assets)
 !*/
 
-# Allow Release Files
+# Whitelist Specific Release Files
 !zyro.apk
 !README.md
 !LINKEDIN_DRAFT.md
-
-# Allow Assets (Screenshots & Logo)
 !assets/
 !assets/**
-
-# Allow this file
 !.gitignore

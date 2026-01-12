@@ -15,8 +15,8 @@ It’s completely offline and privacy-focused (your data stays on your device), 
 
 Under the hood, it’s built with **Flutter** & **Dart** and uses **Hive** for a super fast local database. I built this utilizing **Antigravity**, checking off tasks and refining the code to get it just right.
 
-I’ve open-sourced the whole thing. If you want to check out the code or try the APK, here’s the link:
-🔗 **GitHub**: https://github.com/pavanbharath15/zyro.apk
+I’ve open-sourced the whole thing. You can **download the APK directly** from the repository to try it out immediately:
+🔗 **Get Zyro**: https://github.com/pavanbharath15/zyro.apk
 
 Let me know what you think! Appreciate any feedback. 👇
 
