@@ -1,0 +1,8 @@
+Installing app-debug.apk to I2217...
+Uninstalling old version...
+Installing build/app/outputs/flutter-apk/app-debug.apk...          14.1s
+Error: ADB exited with exit code 1
+Performing Streamed Install
+
+adb: failed to install /home/pavana/project1/habit_flow/build/app/outputs/flutter-apk/app-debug.apk:
+Install failed

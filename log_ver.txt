@@ -1,0 +1,9 @@
+Resolving dependencies...
+Because awesome_notifications >=0.10.1 depends on intl ^0.20.0 and habit_flow depends on intl ^0.19.0, awesome_notifications >=0.10.1 is forbidden.
+So, because habit_flow depends on awesome_notifications ^0.10.1, version solving failed.
+
+
+You can try one of the following suggestions to make the pubspec resolve:
+* Try upgrading your constraint on intl: flutter pub add intl:^0.20.2
+* Consider downgrading your constraint on awesome_notifications: flutter pub add awesome_notifications:^0.10.0
+Failed to update packages.

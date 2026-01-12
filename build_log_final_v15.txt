@@ -1,0 +1,8 @@
+🚀 Starting optimized build for Zyro...
+Resolving dependencies...
+Because habit_flow depends on flutter_alarm_clock ^2.0.2 which doesn't match any versions, version solving failed.
+
+
+You can try the following suggestion to make the pubspec resolve:
+* Consider downgrading your constraint on flutter_alarm_clock: flutter pub add flutter_alarm_clock:^0.1.2
+Failed to update packages.

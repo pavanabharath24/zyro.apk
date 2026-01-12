@@ -1,0 +1,107 @@
+🚀 Starting optimized build for Zyro...
+Running Gradle task 'assembleRelease'...                        
+Warning: Flutter support for your project's Android Gradle Plugin version (Android Gradle Plugin version 8.2.1) will soon be dropped. Please upgrade your Android Gradle Plugin version to a version of at least Android Gradle Plugin version 8.6.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's AGP version is typically defined in the plugins block of the `settings.gradle` file (/home/pavana/project1/habit_flow/android/settings.gradle), by a plugin with the id of com.android.application. 
+If you don't see a plugins block, your project was likely created with an older template version. In this case it is most likely defined in the top-level build.gradle file (/home/pavana/project1/habit_flow/android/build.gradle) by the following line in the dependencies block of the buildscript: "classpath 'com.android.tools.build:gradle:<version>'".
+
+Warning: Flutter support for your project's Kotlin version (1.9.24) will soon be dropped. Please upgrade your Kotlin version to a version of at least 2.1.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's KGP version is typically defined in the plugins block of the `settings.gradle` file (/home/pavana/project1/habit_flow/android/settings.gradle), by a plugin with the id of org.jetbrains.kotlin.android. 
+If you don't see a plugins block, your project was likely created with an older template version, in which case it is most likely defined in the top-level build.gradle file (/home/pavana/project1/habit_flow/android/build.gradle) by the ext.kotlin_version property.
+
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 848 bytes (99.7% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 11984 bytes (99.3% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+e: Incompatible classes were found in dependencies. Remove them from the classpath or use '-Xskip-metadata-version-check' to suppress errors
+e: file:///home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/META-INF/kotlin-stdlib-jdk7.kotlin_moduleModule was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.2.0, expected version is 1.9.0.
+e: file:///home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/META-INF/kotlin-stdlib-jdk8.kotlin_moduleModule was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.2.0, expected version is 1.9.0.
+e: file:///home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/META-INF/kotlin-stdlib.kotlin_moduleModule was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.2.0, expected version is 1.9.0.
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:22:9 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:23:9 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:24:25 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:28:9 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:29:25 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:30:9 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:34:9 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:35:13 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:46:31 Unresolved reference: HashMap
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:48:21 Unresolved reference: put
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:49:21 Unresolved reference: put
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:50:21 Unresolved reference: put
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:51:21 Unresolved reference: put
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:52:49 Unresolved reference: put
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:53:51 Unresolved reference: put
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:54:21 Unresolved reference: put
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:55:21 Unresolved reference: put
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:56:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:57:28 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:60:24 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:63:20 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:77:14 Class 'kotlin.Suppress' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Suppress.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:82:6 Class 'kotlin.Suppress' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Suppress.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:91:6 Class 'kotlin.Suppress' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Suppress.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:102:70 Unresolved reference: first
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:104:77 Unresolved reference: first
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:113:32 Unresolved reference: isNullOrEmpty
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:113:62 Unresolved reference: first
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:116:50 Unresolved reference: first
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:127:6 Class 'kotlin.jvm.Throws' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/jvm/Throws.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:130:16 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:142:25 Unresolved reference: indices
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:144:13 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:145:13 Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The actual metadata version is 2.2.0, but the compiler version 1.9.0 can read versions up to 2.0.0.
+The class is loaded from /home/pavana/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar!/kotlin/Unit.class
+e: file:///home/pavana/.pub-cache/hosted/pub.dev/package_info_plus-9.0.0/android/src/main/kotlin/dev/fluttercommunity/plus/packageinfo/PackageInfoPlugin.kt:147:23 Too many arguments for public constructor String() defined in kotlin.String
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':package_info_plus:compileReleaseKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 43s
+Running Gradle task 'assembleRelease'...                           43.8s
+
+┌─ Flutter Fix ────────────────────────────────────────────────────────────────────────────────┐
+│ [!] Your project requires a newer version of the Kotlin Gradle plugin.                       │
+│ Find the latest version on https://kotlinlang.org/docs/releases.html#release-details, then   │
+│ update the                                                                                   │
+│ version number of the plugin with id "org.jetbrains.kotlin.android" in the plugins block of  │
+│ /home/pavana/project1/habit_flow/android/settings.gradle.                                    │
+│                                                                                              │
+│ Alternatively (if your project was created before Flutter 3.19), update                      │
+│ /home/pavana/project1/habit_flow/android/build.gradle.kts                                    │
+│ ext.kotlin_version = '<latest-version>'                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────┘
+Gradle task assembleRelease failed with exit code 1

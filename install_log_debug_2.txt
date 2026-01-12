@@ -1,0 +1,6 @@
+No supported devices found with name or id matching '10BD772EM50003C'.
+
+The following devices were found:
+Linux (desktop) • linux  • linux-x64      • Fedora Linux 43 (Workstation Edition) 6.17.12-300.fc43.x86_64
+Chrome (web)    • chrome • web-javascript • Google Chrome 143.0.7499.169
+No target device found

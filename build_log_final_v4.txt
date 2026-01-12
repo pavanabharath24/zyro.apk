@@ -1,0 +1,86 @@
+🚀 Starting optimized build for Zyro...
+Running Gradle task 'assembleRelease'...                        
+Warning: Flutter support for your project's Android Gradle Plugin version (Android Gradle Plugin version 8.2.1) will soon be dropped. Please upgrade your Android Gradle Plugin version to a version of at least Android Gradle Plugin version 8.6.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's AGP version is typically defined in the plugins block of the `settings.gradle` file (/home/pavana/project1/habit_flow/android/settings.gradle), by a plugin with the id of com.android.application. 
+If you don't see a plugins block, your project was likely created with an older template version. In this case it is most likely defined in the top-level build.gradle file (/home/pavana/project1/habit_flow/android/build.gradle) by the following line in the dependencies block of the buildscript: "classpath 'com.android.tools.build:gradle:<version>'".
+
+Warning: Flutter support for your project's Kotlin version (1.9.24) will soon be dropped. Please upgrade your Kotlin version to a version of at least 2.1.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's KGP version is typically defined in the plugins block of the `settings.gradle` file (/home/pavana/project1/habit_flow/android/settings.gradle), by a plugin with the id of org.jetbrains.kotlin.android. 
+If you don't see a plugins block, your project was likely created with an older template version, in which case it is most likely defined in the top-level build.gradle file (/home/pavana/project1/habit_flow/android/build.gradle) by the ext.kotlin_version property.
+
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Checking the license for package Android SDK Platform 33 in /home/pavana/Android/Sdk/licenses
+License for package Android SDK Platform 33 accepted.
+Preparing "Install Android SDK Platform 33 (revision 3)".
+"Install Android SDK Platform 33 (revision 3)" ready.
+Installing Android SDK Platform 33 in /home/pavana/Android/Sdk/platforms/android-33
+"Install Android SDK Platform 33 (revision 3)" complete.
+"Install Android SDK Platform 33 (revision 3)" finished.
+Error: Couldn't resolve the package 'flutter_alarm_clock' in 'package:flutter_alarm_clock/flutter_alarm_clock.dart'.
+lib/providers/habit_provider.dart:4:8: Error: Not found: 'package:flutter_alarm_clock/flutter_alarm_clock.dart'
+import 'package:flutter_alarm_clock/flutter_alarm_clock.dart';
+       ^
+lib/providers/habit_provider.dart:184:7: Error: The getter 'FlutterAlarmClock' isn't defined for the type 'HabitProvider'.
+ - 'HabitProvider' is from 'package:habit_flow/providers/habit_provider.dart' ('lib/providers/habit_provider.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'FlutterAlarmClock'.
+      FlutterAlarmClock.createAlarm(
+      ^^^^^^^^^^^^^^^^^
+lib/providers/habit_provider.dart:236:7: Error: The getter 'FlutterAlarmClock' isn't defined for the type 'HabitProvider'.
+ - 'HabitProvider' is from 'package:habit_flow/providers/habit_provider.dart' ('lib/providers/habit_provider.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'FlutterAlarmClock'.
+      FlutterAlarmClock.createAlarm(
+      ^^^^^^^^^^^^^^^^^
+lib/providers/habit_provider.dart:301:7: Error: The getter 'FlutterAlarmClock' isn't defined for the type 'HabitProvider'.
+ - 'HabitProvider' is from 'package:habit_flow/providers/habit_provider.dart' ('lib/providers/habit_provider.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'FlutterAlarmClock'.
+      FlutterAlarmClock.createAlarm(
+      ^^^^^^^^^^^^^^^^^
+lib/providers/habit_provider.dart:341:7: Error: The getter 'FlutterAlarmClock' isn't defined for the type 'HabitProvider'.
+ - 'HabitProvider' is from 'package:habit_flow/providers/habit_provider.dart' ('lib/providers/habit_provider.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'FlutterAlarmClock'.
+      FlutterAlarmClock.createAlarm(
+      ^^^^^^^^^^^^^^^^^
+lib/services/alarm_service.dart:63:29: Error: Member not found: 'FlutterRingtonePlayer.stop'.
+      FlutterRingtonePlayer.stop();
+                            ^^^^
+lib/services/alarm_service.dart:74:27: Error: Member not found: 'FlutterRingtonePlayer.playAlarm'.
+    FlutterRingtonePlayer.playAlarm(
+                          ^^^^^^^^^
+lib/services/alarm_service.dart:136:33: Error: Member not found: 'FlutterRingtonePlayer.stop'.
+    await FlutterRingtonePlayer.stop();
+                                ^^^^
+Unhandled exception:
+FileSystemException(uri=org-dartlang-untranslatable-uri:package%3Aflutter_alarm_clock%2Fflutter_alarm_clock.dart; message=StandardFileSystem only supports file:* and data:* URIs)
+#0      StandardFileSystem.entityForUri (package:front_end/src/api_prototype/standard_file_system.dart:45)
+#1      asFileUri (package:vm/kernel_front_end.dart:1008)
+#2      writeDepfile (package:vm/kernel_front_end.dart:1171)
+<asynchronous suspension>
+#3      FrontendCompiler.compile (package:frontend_server/frontend_server.dart:738)
+<asynchronous suspension>
+#4      starter (package:frontend_server/starter.dart:102)
+<asynchronous suspension>
+#5      main (file:///b/s/w/ir/x/w/sdk/pkg/frontend_server/bin/frontend_server_starter.dart:13)
+<asynchronous suspension>
+
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildRelease'.
+> Process 'command '/home/pavana/flutter/flutter/bin/flutter'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 54s
+Running Gradle task 'assembleRelease'...                           55.5s
+Gradle task assembleRelease failed with exit code 1

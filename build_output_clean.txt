@@ -1,0 +1,69 @@
+🚀 Starting optimized build for Zyro...
+Running Gradle task 'assembleRelease'...                        
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':flutter_audio_output'.
+> Could not resolve all artifacts for configuration 'classpath'.
+   > Could not resolve com.android.tools.build:gradle:8.1.4.
+     Required by:
+         project :flutter_audio_output
+      > Could not resolve com.android.tools.build:gradle:8.1.4.
+         > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/8.1.4/gradle-8.1.4.pom'.
+            > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/8.1.4/gradle-8.1.4.pom'.
+               > Got socket exception during request. It might be caused by SSL misconfiguration
+                  > Network is unreachable
+      > Could not resolve com.android.tools.build:gradle:8.1.4.
+         > Could not get resource 'https://repo.maven.apache.org/maven2/com/android/tools/build/gradle/8.1.4/gradle-8.1.4.pom'.
+            > Could not GET 'https://repo.maven.apache.org/maven2/com/android/tools/build/gradle/8.1.4/gradle-8.1.4.pom'.
+               > Got socket exception during request. It might be caused by SSL misconfiguration
+                  > Network is unreachable
+> Failed to notify project evaluation listener.
+   > java.lang.NullPointerException (no error message)
+   > java.lang.NullPointerException (no error message)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 21s
+Running Gradle task 'assembleRelease'...                           22.4s
+[!] Gradle threw an error while downloading artifacts from the network.
+Retrying Gradle Build: #1, wait time: 100ms
+Running Gradle task 'assembleRelease'...                        
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':flutter_audio_output'.
+> Could not resolve all artifacts for configuration 'classpath'.
+   > Could not resolve com.android.tools.build:gradle:8.1.4.
+     Required by:
+         project :flutter_audio_output
+      > Could not resolve com.android.tools.build:gradle:8.1.4.
+         > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/8.1.4/gradle-8.1.4.pom'.
+            > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/8.1.4/gradle-8.1.4.pom'.
+               > Got socket exception during request. It might be caused by SSL misconfiguration
+                  > Network is unreachable
+      > Could not resolve com.android.tools.build:gradle:8.1.4.
+         > Could not get resource 'https://repo.maven.apache.org/maven2/com/android/tools/build/gradle/8.1.4/gradle-8.1.4.pom'.
+            > Could not GET 'https://repo.maven.apache.org/maven2/com/android/tools/build/gradle/8.1.4/gradle-8.1.4.pom'.
+               > Got socket exception during request. It might be caused by SSL misconfiguration
+                  > Network is unreachable
+> Failed to notify project evaluation listener.
+   > java.lang.NullPointerException (no error message)
+   > java.lang.NullPointerException (no error message)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 13s
+Running Gradle task 'assembleRelease'...                           13.2s
+[!] Gradle threw an error while downloading artifacts from the network.
+Gradle task assembleRelease failed with exit code 1

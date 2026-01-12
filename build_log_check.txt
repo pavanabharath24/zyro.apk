@@ -1,0 +1,7 @@
+🚀 Starting optimized build for Zyro...
+Running Gradle task 'assembleRelease'...                           12.2s
+✓ Built build/app/outputs/flutter-apk/app-release.apk (57.7MB)
+✅ Build successful!
+📦 Copied to zyro.apk
+📊 New App Size: 56M
+🎉 Ready to share! File: /home/pavana/project1/habit_flow/zyro.apk

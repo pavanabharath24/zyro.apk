@@ -1,0 +1,7 @@
+Resolving dependencies...
+Because habit_flow depends on awesome_notifications ^0.10.3 which doesn't match any versions, version solving failed.
+
+
+You can try the following suggestion to make the pubspec resolve:
+* Consider downgrading your constraint on awesome_notifications: flutter pub add awesome_notifications:^0.10.0
+Failed to update packages.

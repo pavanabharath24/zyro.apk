@@ -1,0 +1,44 @@
+🚀 Starting optimized build for Zyro...
+Running Gradle task 'assembleRelease'...                        
+Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 848 bytes (99.7% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 12120 bytes (99.3% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=dd94a305-d647-4da6-ac87-fb3c6ebefbf3, currentDir=/home/pavana/project1/habit_flow/android}
+Attempting to read last messages from the daemon log...
+Daemon pid: 96843
+  log file: /home/pavana/.gradle/daemon/8.14/daemon-96843.out.log
+----- Last 20 lines from daemon log file - daemon-96843.out.log -----
+2026-01-04T16:10:01.805+0530 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=dd94a305-d647-4da6-ac87-fb3c6ebefbf3, currentDir=/home/pavana/project1/habit_flow/android}.
+2026-01-04T16:10:01.805+0530 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=dd94a305-d647-4da6-ac87-fb3c6ebefbf3, currentDir=/home/pavana/project1/habit_flow/android} with connection: socket connection from /127.0.0.1:41031 to /127.0.0.1:36958.
+2026-01-04T16:10:01.807+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=dd94a305-d647-4da6-ac87-fb3c6ebefbf3, currentDir=/home/pavana/project1/habit_flow/android}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:41031 to /127.0.0.1:36958] after 9.333333333333333E-4 minutes of idle
+2026-01-04T16:10:01.808+0530 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [5256df29-b73c-4ff8-a9ea-5f9d9b0b6302 port:41031, addresses:[localhost/127.0.0.1]]
+2026-01-04T16:10:01.808+0530 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [5256df29-b73c-4ff8-a9ea-5f9d9b0b6302 port:41031, addresses:[localhost/127.0.0.1]]
+2026-01-04T16:10:01.808+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-01-04T16:10:01.809+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-01-04T16:10:01.810+0530 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-01-04T16:10:01.810+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-01-04T16:10:01.810+0530 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-01-04T16:10:01.811+0530 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=dd94a305-d647-4da6-ac87-fb3c6ebefbf3, currentDir=/home/pavana/project1/habit_flow/android}. Dispatching build started information...
+2026-01-04T16:10:01.812+0530 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 41: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@15378211
+2026-01-04T16:10:01.813+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [PATH, PYDEVD_DISABLE_FILE_VALIDATION, INVOCATION_ID, DMS_DISABLE_HOT_RELOAD, QT_LOGGING_RULES, XDG_DATA_DIRS, GDMSESSION, PYTHON_BASIC_REPL, DBUS_SESSION_BUS_ADDRESS, VSCODE_GIT_IPC_HANDLE, VSCODE_PYTHON_AUTOACTIVATE_GUARD, ANDROID_HOME, XDG_CURRENT_DESKTOP, JOURNAL_STREAM, MAIL, COLORTERM, MANAGERPIDFDID, USERNAME, LOGNAME, VSCODE_GIT_ASKPASS_NODE, TERM_PROGRAM_VERSION, MANAGERPID, PWD, GIT_ASKPASS, VSCODE_DEBUGPY_ADAPTER_ENDPOINTS, SHELL, LESSOPEN, CHROME_DESKTOP, PAGER, OLDPWD, ORIGINAL_XDG_CURRENT_DESKTOP, DEBUGINFOD_IMA_CERT_PATH, DEBUGINFOD_URLS, SYSTEMD_EXEC_PID, LS_COLORS, XDG_SESSION_DESKTOP, SHLVL, MEMORY_PRESSURE_WRITE, QT_QPA_PLATFORM, TERMINAL, HISTSIZE, JAVA_HOME, MEMORY_PRESSURE_WATCH, FLUTTER_ROOT, TERM, DMS_SOCKET, LANG, XDG_SESSION_ID, MOZ_GMP_PATH, XDG_SESSION_TYPE, VSCODE_GIT_ASKPASS_MAIN, DISPLAY, PYTHONSTARTUP, WAYLAND_DISPLAY, VSCODE_GIT_ASKPASS_EXTRA_ARGS, BUNDLED_DEBUGPY_PATH, XDG_SESSION_CLASS, ANTIGRAVITY_CLI_ALIAS, DMS_DEFAULT_LAUNCH_PREFIX, GDM_LANG, QT_QPA_PLATFORMTHEME_QT6, VSCODE_JDWP_ADAPTER_ENDPOINTS, TERM_PROGRAM, GDK_BACKEND, DESKTOP_SESSION, GPG_TTY, NIRI_SOCKET, USER, XDG_SEAT, EDITOR, HOSTNAME, FLUTTER_ALREADY_LOCKED, QT_QPA_PLATFORMTHEME, NO_AT_BRIDGE, ANTIGRAVITY_AGENT, XDG_VTNR, XDG_RUNTIME_DIR, HOME, VSCODE_JAVA_EXEC]
+2026-01-04T16:10:01.818+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-01-04T16:10:01.819+0530 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 96843). The daemon log file: /home/pavana/.gradle/daemon/8.14/daemon-96843.out.log
+2026-01-04T16:10:01.820+0530 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 8 GiB]
+2026-01-04T16:10:01.823+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-01-04T16:10:01.823+0530 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=fa1dda90-03ad-4929-932d-a2a0d4aa0d52,javaHome=/usr/lib/jvm/java-21-openjdk,javaVersion=21,javaVendor=Red Hat, Inc.,daemonRegistryDir=/home/pavana/.gradle/daemon,pid=96843,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 848 bytes (99.7% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 12120 bytes (99.3% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+Running Gradle task 'assembleRelease'...                           48.4s
+Gradle task assembleRelease failed with exit code 1

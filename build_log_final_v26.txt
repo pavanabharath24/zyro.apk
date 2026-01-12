@@ -1,0 +1,10 @@
+🚀 Starting optimized build for Zyro...
+Running Gradle task 'assembleRelease'...                        
+Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 848 bytes (99.7% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 11984 bytes (99.3% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Running Gradle task 'assembleRelease'...                           57.4s
+✓ Built build/app/outputs/flutter-apk/app-release.apk (58.0MB)
+✅ Build successful!
+📦 Copied to zyro.apk
+📊 New App Size: 56M
+🎉 Ready to share! File: /home/pavana/project1/habit_flow/zyro.apk

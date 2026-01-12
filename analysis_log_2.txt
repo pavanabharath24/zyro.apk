@@ -1,0 +1,68 @@
+Analyzing habit_flow...                                         
+
+warning • Unused import: 'package:habit_flow/screens/welcome_screen.dart' • lib/main.dart:4:8 • unused_import
+   info • Empty catch block • lib/screens/consistency_details_screen.dart:52:25 • empty_catches
+   info • Empty catch block • lib/screens/consistency_details_screen.dart:64:25 • empty_catches
+   info • Statements in an if should be enclosed in a block • lib/screens/consistency_details_screen.dart:179:19 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/consistency_details_screen.dart:183:19 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/consistency_details_screen.dart:185:19 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/consistency_details_screen.dart:187:19 • curly_braces_in_flow_control_structures
+   info • Empty catch block • lib/screens/daily_flow_details_screen.dart:58:27 • empty_catches
+   info • Empty catch block • lib/screens/daily_flow_details_screen.dart:74:27 • empty_catches
+   info • Statements in an if should be enclosed in a block • lib/screens/daily_flow_details_screen.dart:115:17 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/daily_flow_details_screen.dart:117:17 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/daily_flow_details_screen.dart:119:17 • curly_braces_in_flow_control_structures
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/screens/daily_flow_details_screen.dart:408:15 • deprecated_member_use
+   info • Use 'const' with the constructor to improve performance • lib/screens/home_screen.dart:147:19 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/home_screen.dart:148:28 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/home_screen.dart:253:30 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/home_screen.dart:453:33 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/home_screen.dart:587:33 • prefer_const_constructors
+   info • Use 'const' for final variables initialized to a constant value • lib/screens/home_screen.dart:824:5 • prefer_const_declarations
+   info • Use 'const' with the constructor to improve performance • lib/screens/home_screen.dart:1254:28 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/home_screen.dart:1377:19 • prefer_const_constructors
+   info • Use 'const' for final variables initialized to a constant value • lib/screens/home_screen.dart:1806:5 • prefer_const_declarations
+   info • Use 'const' for final variables initialized to a constant value • lib/screens/home_screen.dart:1807:5 • prefer_const_declarations
+   info • Statements in an if should be enclosed in a block • lib/screens/new_habit_screen.dart:611:39 • curly_braces_in_flow_control_structures
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/screens/new_habit_screen.dart:678:31 • deprecated_member_use
+   info • Use 'const' with the constructor to improve performance • lib/screens/new_habit_screen.dart:770:25 • prefer_const_constructors
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/screens/new_task_screen.dart:456:35 • deprecated_member_use
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/screens/new_task_screen.dart:547:31 • deprecated_member_use
+   info • Use 'const' with the constructor to improve performance • lib/screens/onboarding_screen.dart:98:30 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/onboarding_screen.dart:109:30 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/onboarding_screen.dart:120:30 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/settings_screen.dart:114:33 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/settings_screen.dart:118:31 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/settings_screen.dart:119:42 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/settings_screen.dart:120:43 • prefer_const_constructors
+   info • Don't use 'BuildContext's across async gaps • lib/screens/settings_screen.dart:417:51 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/settings_screen.dart:422:38 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/settings_screen.dart:432:30 • use_build_context_synchronously
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:84:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:1021:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:1023:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:1025:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:1027:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:1097:29 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:1099:29 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:1101:29 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/screens/stats_screen.dart:1103:29 • curly_braces_in_flow_control_structures
+   info • Use 'const' with the constructor to improve performance • lib/screens/streak_calendar_screen.dart:75:31 • prefer_const_constructors
+   info • Use 'const' literals as arguments to constructors of '@immutable' classes • lib/screens/streak_calendar_screen.dart:78:31 • prefer_const_literals_to_create_immutables
+   info • Use 'const' with the constructor to improve performance • lib/screens/streak_calendar_screen.dart:244:31 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:68:24 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:184:19 • prefer_const_constructors
+   info • Use 'const' literals as arguments to constructors of '@immutable' classes • lib/screens/welcome_screen.dart:186:31 • prefer_const_literals_to_create_immutables
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:188:23 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:190:32 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:192:34 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:219:23 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:222:29 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:232:23 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:235:29 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:245:23 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/welcome_screen.dart:248:29 • prefer_const_constructors
+   info • 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre • lib/theme/theme.dart:16:9 • deprecated_member_use
+   info • 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre • lib/theme/theme.dart:38:9 • deprecated_member_use
+
+64 issues found. (ran in 1.3s)
